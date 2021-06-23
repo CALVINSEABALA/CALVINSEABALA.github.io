@@ -1,6 +1,6 @@
 body,
 html {
-    background: linear-gradient(-90deg, #bbb, #bbb);
+    background: linear-gradient(-90deg, #bbb, #fff);
     animation: gradient 15s ease infinite;
     font-family: 'Arvo', serif !important;
     font-size: 18px;
