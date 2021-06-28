@@ -1,6 +1,6 @@
 body,
 html {
-    background: linear-gradient(-90deg, #845EC2, #845EC2);
+    background-image: linear-gradient(to right top, #d16ba5, #c266ae, #ae63b7, #9562c0, #7562c7, #6e63ce, #6464d6, #5866dd, #7667e7, #9266f0, #af63f7, #cc5ffb);
     animation: gradient 15s ease infinite;
     font-family: 'Arvo', serif !important;
     font-size: 18px;
@@ -13,9 +13,12 @@ p {
     margin: 0 0 25px;
     color: #4E8397;
 }
+a {
+    color:#5C07E7;
+}
 
 .header {
-    background-color: #D5CABD;
+    background-color: #D5ECF5;
     width: 100% !important;
 }
 
@@ -38,7 +41,7 @@ p {
 }
 
 .aboutMe {
-    background-color: #D5CABD;
+    background-color: #D5ECF5;
     width: 100%;
     margin-top: 5px;
     padding: 5px;
@@ -48,7 +51,7 @@ p {
 .header-content h2,
 .header-content h3 {
     text-transform: uppercase;
-    color: #4E8397;
+    color: #5C07E7;
 }
 
 .header-content p {
@@ -59,7 +62,7 @@ p {
 }
 
 .content-item {
-    background-color: #D5CABD;
+    background-color: #D5ECF5;
     margin: 5px;
     padding: 2%;
     line-height: 99%;
@@ -69,7 +72,7 @@ p {
 .content-item h4 {
     font-weight: bold;
     text-transform: uppercase;
-    color: #4E8397;
+    color: #5C07E7;
     text-align: center;
     text-decoration: underline;
 }
@@ -94,7 +97,7 @@ li {
 }
 
 .footer {
-    background-color: #D5CABD;
+    background-color: #D5ECF5;
     border: 5px solid #e73c7e;
     text-align: center;
     margin: 5px;
@@ -103,9 +106,7 @@ li {
 .footer h4 {
     font-weight: bold;
     text-transform: uppercase;
-    color: #4E8397;
+    color: #5C07E7;
     text-align: center;
     text-decoration: underline;
 }
-
-
