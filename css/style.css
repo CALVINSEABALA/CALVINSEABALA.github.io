@@ -60,6 +60,9 @@
      color: #fff;
      margin-bottom: 2rem;
    }
+ul{
+  list-style: none;
+}
    header{
      margin:1rem;
      background: rgba(113, 111, 172, 0.7);
