@@ -14,15 +14,16 @@
     <title>
         Portfolio Resume
     </title>
-
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/3e6212cda6.css">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <!--Jquery-->
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <!-- bootstrap cdn -->
-
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- bootstrap cdn -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -31,224 +32,76 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 
+
 <body>
 
+    <!--header Section-->
+<div class="container-fluid">
+    <div class="col-12 col-sm-4 align-items-center">
+    <header>
+        <div class="user">
+            <img src="assets/background.png" class="profilePic">
+            <h3 class="name">Calvin Seabala</h3>
+            <p class="post">Full Stack Developer</p>
+        </div>
     
-    <div class="container">
+        <nav class="navbar">
+            <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/education.html">Education</a></li>
+            <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    </div>
 
-        <!--Header Section-->
+    <div class="col-12 col-sm-8 align-items-center">
 
-        <header class="header">
-            <div class="row">
+<!--Content Section-->
 
-                <!--logo container-->
-                <div class="col-xs-3">
-                    <div class="profilePic">
-                        <img src="/images/logo.png" alt="profile photo" />
-                    </div>
-                </div>
+<div class="containers">
+    <section class="home" id="home">
+        <h3 class="name">Welcome</h3>
+        <h3 class="post">My Name is <span> CALVIN M SEABALA</span></h3>
+        <h3 class="post">I am a <span class="typing-text">Full Stack Developer </span></h3>
+        <a href="mailto:seabalacalvin@gmail.com"><button class="btn-hire">Hire Me</button></a>
 
-                <!--Header Content Container-->
-                <div class="col-xs-9">
-                    <div class="header-content">
-                        <div class="row">
-                            <div class="col-12">
-                                <h1> CALVIN M SEABALA</h1>
-                                <h3>Software Developer & System Analyst</h3>
-                            </div>
-                            <div class="col-12">
-                                <p><b></b>Mankweng Turfloop, Polokwane</p>
-                                <p>(+27)79 302 1300 / (+27)68 016 6894</p>
-                                <p><a href="mailto:seabalacalvin@gmail.com">-seabalacalvin@gmail.com</a> / <a href="mailto:calvinmseabela@gmail.com"> calvinmseabela@gmail.com</a></p>
-                                <p>@calvin_seabala (Instagram) / <a href="https://www.linkedin.com/in/calvin-m-seabala-55311290?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B33zBto%2FXSDKQt5LvwTWH2g%3D%3D"> Calvin M Seabala (LinkedIn)</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
+        <div class="share">
+            <a href="tel:0680166894" class="fa fa-phone-square fa-3x"></a>
+            <a href="https://www.instagram.com/calvin_seabala/" class="fa fa-instagram fa-3x"></a>
+            <a href="https://www.linkedin.com/in/calvin-m-seabala-55311290?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B33zBto%2FXSDKQt5LvwTWH2g%3D%3D" class="fa fa-linkedin fa-3x"></a>
+            <a href="https://calvinseabala.github.io/" class="fa fa-globe fa-3x"></a>
+            <a href="mailto:seabalacalvin@gmail.com" class="fa fa-envelope fa-3x "></a>
 
-        <!--About myself container-->
 
-        <div class="aboutMe">
-            <p><b>
-                I have good English communication and leadership skills, hardworking and a Team Player, pro-active thinker with the ability to prioritize and work under pressure. I have an excellent ability of relationship building as well as good report writing and
-                presentation skills. I am able to learn and implement policies, standards and business decision.
-           </b> </p>
         </div>
+    </section>
 
-        <!--Main Content Container-->
-        <div class="row">
-
-
-            <!--Three Cards-->
-            <div class="col-12 col-sm-4">
-                <div class="content-item">
-                    <h4>SKILLS</h4>
-                    <hr/>
-                    <ul>
-
-                        <li> Front-end Development </li>
-                        <li>Web Development</li>
-                        <li>Backend Development</li>
-                        <li>Technical Support </li>
-                        <li>Accuracy & attention to detail</li>
-                        <li> Problem Solving</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-12 col-sm-4">
-                <div class="content-item">
-                    <h4>PERSONALITY</h4>
-                    <hr/>
-                    <ul>
-
-                        <li> Team Player</li>
-                        <li>Motivated</li>
-                        <li>Communication</li>
-                        <li>Creativity</li>
-                        <li>Leadership</li>
-                        <li>Interpersonl Relation</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-12 col-sm-4">
-                <div class="content-item">
-                    <h4>PROGRAMMING LANGUAGE</h4>
-                    <hr/>
-                    <ul>
-
-                        <li> HTML & CSS</li>
-
-                        <li>Linux(kali, ubuntu & Debian)
-                        </li>
-                        <li>Java (Android SDK)</li>
-                        <li>PHP</li>
-                        <li>React Native and Node Js</li>
-                        <li> C++</li>
-                        <li>SQL, PSQL & SQLite</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-
-            <!--Personal Information Section-->
-            <div class=" col-12 col-sm-8">
-                <div class="content-item">
-                    <h4>Personal Information</h4>
-                    <hr/>
-                    <p> <b><a href="https://drive.google.com/file/d/1X8Ux4ZgaF0FgURcLdD-S0TKbAJCwKXL2/view?usp=sharing">SA ID Document</a></b></p>
-                    <p>
-                        SURNAME : SEABALA <br/> NAMES : CALVIN MAROPENG <br/> DATE OF BIRTH : 27 JUNE 1995 <br/> IDENTITY NUMBER : 9506275658083 <br/> GENDER : MALE <br/> MARITIAL STATUS : SINGLE <br/> RACE : AFRICAN <br/> COUNTRY : SOUTH AFRICA <br/>                        POSTAL ADDRESS : P O BOX 330 <br/> SOVENGA <br/> 0727 <br/> HOME LANGUAGE : SEPEDI <br/> OTHER LANGUAGES : ENGLISH <br/> CRIMINAL RECORD : NONE
-                    </p>
-                </div>
-            </div>
-
-            <!--Educational Information Section-->
-            <div class="col-12 col-sm-4">
-                <div class="content-item">
-                    <h4>Education</h4>
-                    <hr/>
-
-                    <p> <b> MAMABUDUSHA SECONDARY SCHOOL </b><br/> GRADE 12/MATRIC -2013</p><br/>
-
-                    <p><b>TSHWANE UNIVERSITY OF TECHNOLOGY</b><br/>
-                        <a href="https://drive.google.com/file/d/1DV-6aDTUPuQrlMy8bLKWJosgN4Uk_G8o/view?usp=sharing">IT: SOFTWARE DEVELOPMENT</a> 2015 – 2020</p><br/>
-
-                    <p> <b>SOLO LEARN</b><br/> (free online course) certificates <br/>
-                        <a href="https://www.sololearn.com/Certificate/1014-6149743/pdf/">  HTML Fundamentals </a> -2017 <br/>
-                        <a href="https://www.sololearn.com/Certificate/1051-6149743/pdf/"> C++</a> - 2018 <br/>
-                        <a href="https://www.sololearn.com/Certificate/1060-6149743/pdf/">   SQL Fundamentals</a> – 2018 <br/>
-                        <a href="https://www.sololearn.com/Certificate/1059-6149743/pdf/"> PHP tutorial </a> - 2019 <br/>
-                        <a href="https://www.sololearn.com/Certificate/1068-6149743/pdf/">  JAVA TUTORIAL </a> -2019 <br/>
-                        <a href="https://www.sololearn.com/Certificate/1024-6149743/pdf/">JAVASCRIPT</a> -2019 <br/>
-                        <a href="https://www.sololearn.com/Certificate/1097-6149743/jpg/"> React + Redux</a> -2020 <br/>
-                        <a href="https://www.sololearn.com/Certificate/1023-6149743/jpg/"> CSS- </a> 2021
-                    </p>
-
-                </div>
-            </div>
-        </div>
-        <div class="footer">
-            <h4>Previous Work Experience</h4>
-            <div class="row">
-
-
-
-
-
-                <!--Work Experience Section-->
-                <div class="col-12">
-                    <div class="col-12 col-sm-4">
-
-                        <p>
-                            Software Developer Intern<br/> 6 Months <br/> IncHub Polokwane.<br/> Email:
-                            <a href="mailto:plkinchub@gmail.com">  plkinchub@gmail.com</a> <br/> Cell: 061 477 5152
-
-                        </p>
-
-                    </div>
-                    <div class="col-12 col-sm-4">
-
-                        <p>
-                            Technical Support Freelance <br/> 3 years <br/> SEABALATECHNOLOGIES(PTY) LTD. <br/> Email:
-                            <a href="mailto:SEABALATECHNOLOGIES@outlook.com"> SEABALATECHNOLOGIES</a><br/> Cell: 061 477 5152
-
-                        </p>
-                    </div>
-                    <div class="col-12 col-sm-4">
-                        <p>
-                            FullStack Developer Trainee <br/> 6 Months <br/> Mlab Code Tribe Polokwane <br/> Email:
-                            <a href="mailto:tyson@mlab.co.za"> Tyson Mothlbeng</a><br/> Cell: 078 649 8402
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="footer">
-            <h4>References</h4>
-            <div class="row">
-
-
-
-
-
-                <!--Work Experience Section-->
-                <div class="col-12">
-                    <div class="col-12 col-sm-4">
-
-                        <p>
-                            Mpho Mashego <br/> Executive Director <br/> IncHub PLK. <br/> Email:
-                            <a href="mailto:plkinchub@gmail.com"> plkinchub@gmail.com </a><br/> Cell: 061 477 5152
-
-                        </p>
-
-                    </div>
-                    <div class="col-12 col-sm-4">
-
-                        <p>
-                            Tshitake FM<br/> Lecture & Executive Director<br/> TUT: Polokwane campus & FTECH CONSULTING<br/> Email: <a href="mailto:TshitakeFM@tut.ac.za">TshitakeFM@tut.ac.za"</a><br/> Cell: 079 046 2424
-                        </p>
-                    </div>
-                    <div class="col-12 col-sm-4">
-                        <p>
-                            Mashalane L<br/> Technical Support<br/> Capricorn College Ramokgopa Campus <br/> Email: <a href="mailto:lmashalane@capricorncollege.edu.za"> lmashalane@capricorncollege.edu.za</a><br/> Cell: 074 478 1006
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+ 
+</div>
 
 
     </div>
+</div>
 
 
-    
 
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js" integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.js" integrity="sha512-HkPTAAm+s4i8XlHc0dmKTmR7gEo5W3mwtgRNqOMkYdWAK/OaS89ZwQ2jIOyVx7ZrtCEDxb245+rMjN/mmOj/DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    var type = new Typed('.typing-text',{
+        strings: ['System Analyst','Front-end Developer', 'Web Designer','Back-end Developer'],
+        typeSpeed:120,
+        loop:true
+    })
+</script>
 </body>
+
 
 </html>
