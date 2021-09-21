@@ -151,7 +151,7 @@ header .navbar ul li a:hover{
   border: 1px solid rgba(113, 111, 172, 0.49);
   text-align: center;
   padding:1rem;
-
+  width:100%;
   margin: 1rem;
 }
 .card li {
